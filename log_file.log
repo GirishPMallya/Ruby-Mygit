@@ -1,0 +1,668 @@
+# Logfile created on 2019-08-05 16:42:16 +0530 by logger.rb/66358
+D, [2019-08-05T16:42:26.009979 #16873] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:43:08.824315 #16914] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:43:36.058492 #16959] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:43:45.902002 #16974] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:44:25.081247 #17018] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:44:25.081312 #17018] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:44:25.081341 #17018] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:44:25.082229 #17018] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:44:25.082301 #17018] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:44:25.082326 #17018] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:44:32.493300 #17018] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:44:32.493630 #17018] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:44:32.493758 #17018] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:44:32.496253 #17018] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:44:32.496337 #17018] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:44:32.497386 #17018] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:46:09.113779 #17092] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:46:09.113843 #17092] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:46:09.113867 #17092] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:46:09.114585 #17092] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:46:09.114631 #17092] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:46:09.114663 #17092] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:46:09.115584 #17092] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:46:09.115665 #17092] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:46:09.115690 #17092] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:46:09.117927 #17092] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:46:09.117988 #17092] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:46:09.118564 #17092] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:46:36.556003 #17137] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:46:36.556071 #17137] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:46:36.556107 #17137] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:46:36.558060 #17137] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:46:36.558124 #17137] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:46:36.558164 #17137] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:46:36.559085 #17137] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:46:36.559196 #17137] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:46:36.559235 #17137] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:46:36.561781 #17137] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:46:36.561844 #17137] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:46:36.562518 #17137] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:47:47.519483 #17185] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:47:47.519551 #17185] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:47:47.519582 #17185] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:47:47.520386 #17185] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:47:47.520459 #17185] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:47:47.520500 #17185] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:47:47.521821 #17185] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:47:47.521906 #17185] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:47:47.521944 #17185] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:47:47.524147 #17185] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:47:47.524209 #17185] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:47:47.524947 #17185] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:47:47.525024 #17185] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:47:47.525091 #17185] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:47:47.527344 #17185] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:47:47.529896 #17185] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:47:54.261528 #17185] DEBUG -- : <MyGit> <create> : Already up-to-date.
+
+D, [2019-08-05T16:47:54.264165 #17185] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:47:54.267179 #17185] DEBUG -- : <MyGit> <create> : Switched to branch 'trial'
+
+D, [2019-08-05T16:47:54.267333 #17185] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:47:54.267377 #17185] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:47:54.267448 #17185] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to /home/girish/Mygit - Finalrepo.txt
+D, [2019-08-05T16:47:54.267525 #17185] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:47:54.267579 #17185] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:48:29.240227 #17250] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:48:29.240287 #17250] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:48:29.240311 #17250] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:48:29.241336 #17250] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:48:29.241424 #17250] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:48:29.241457 #17250] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:48:29.242497 #17250] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:48:29.242571 #17250] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:48:29.242608 #17250] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:48:29.244489 #17250] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:48:29.244549 #17250] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:48:29.245395 #17250] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:48:29.245464 #17250] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:48:29.247679 #17250] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:48:29.250519 #17250] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:48:35.853245 #17250] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T16:48:35.855997 #17250] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T16:48:35.859265 #17250] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T16:48:35.859500 #17250] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:48:35.859605 #17250] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:48:35.859776 #17250] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to /home/girish/Mygit - Finalrepo.txt
+D, [2019-08-05T16:48:35.859964 #17250] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:48:35.860039 #17250] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:49:05.722339 #17314] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:49:05.722402 #17314] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:49:05.722449 #17314] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:49:05.723377 #17314] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:49:05.723447 #17314] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:49:05.723492 #17314] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:49:05.724777 #17314] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:49:05.724871 #17314] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:49:05.724916 #17314] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:49:05.726863 #17314] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:49:05.726923 #17314] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:49:05.727751 #17314] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:49:05.727828 #17314] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:49:05.732884 #17314] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:49:05.735444 #17314] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:49:11.980390 #17314] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T16:49:11.983154 #17314] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T16:49:11.986141 #17314] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T16:49:11.986308 #17314] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:49:11.986356 #17314] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:49:11.986483 #17314] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to /home/girish/Mygit - Finalrepo.txt
+D, [2019-08-05T16:49:11.986604 #17314] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:49:11.986664 #17314] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:50:24.848428 #17381] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:50:24.848487 #17381] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:50:24.848512 #17381] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:50:24.849438 #17381] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:50:24.849482 #17381] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:50:24.849505 #17381] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:50:24.850557 #17381] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:50:24.850643 #17381] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:50:24.850707 #17381] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:50:24.852621 #17381] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:50:24.852682 #17381] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:50:24.853561 #17381] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:50:24.853626 #17381] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:50:24.856111 #17381] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:50:24.859070 #17381] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:50:32.254516 #17381] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T16:50:32.257406 #17381] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T16:50:32.260706 #17381] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T16:50:32.260894 #17381] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:50:32.260948 #17381] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:50:32.261215 #17381] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to /home/girish/Mygit - Finalrepo.txt
+D, [2019-08-05T16:50:32.261343 #17381] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:50:32.261394 #17381] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:51:05.702262 #17443] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:51:05.702333 #17443] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:51:05.702358 #17443] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:51:05.703025 #17443] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:51:05.703072 #17443] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:51:05.703095 #17443] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:51:05.704022 #17443] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:51:05.704111 #17443] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:51:05.704171 #17443] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:51:05.706242 #17443] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:51:05.706311 #17443] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:51:05.707035 #17443] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:51:05.707093 #17443] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:51:05.708595 #17443] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:51:05.711496 #17443] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:51:12.103743 #17443] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T16:51:12.106712 #17443] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T16:51:12.110184 #17443] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T16:51:12.110357 #17443] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:51:12.110410 #17443] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:51:12.110513 #17443] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to /home/girish/Mygit - Finalrepo.txt
+D, [2019-08-05T16:51:12.110606 #17443] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:51:12.110663 #17443] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:53:40.788122 #17537] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:53:40.788193 #17537] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:53:40.788231 #17537] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:53:40.789071 #17537] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:53:40.789242 #17537] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:53:40.789292 #17537] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:53:40.790423 #17537] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:53:40.790521 #17537] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:53:40.790584 #17537] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:53:40.792646 #17537] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:53:40.792716 #17537] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:53:40.793559 #17537] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:53:40.793635 #17537] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:53:40.797077 #17537] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:53:40.799565 #17537] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:53:47.854533 #17537] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T16:53:47.857788 #17537] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T16:53:47.862164 #17537] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T16:53:47.862523 #17537] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:53:47.862593 #17537] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:53:47.862800 #17537] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to /home/girish/Mygit - Finalrepo.txt
+D, [2019-08-05T16:53:47.863010 #17537] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:53:47.863069 #17537] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:54:38.064121 #17609] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:54:38.064181 #17609] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:54:38.064240 #17609] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:54:38.065066 #17609] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:54:38.065221 #17609] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:54:38.065257 #17609] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:54:38.066430 #17609] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:54:38.066506 #17609] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:54:38.066544 #17609] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:54:38.069026 #17609] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:54:38.069085 #17609] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:54:38.070034 #17609] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:54:38.070139 #17609] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:54:38.073784 #17609] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:54:38.076062 #17609] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:54:44.198840 #17609] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T16:54:44.201056 #17609] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T16:54:44.204001 #17609] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T16:54:44.204246 #17609] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:54:44.204304 #17609] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:54:44.204419 #17609] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:54:44.204492 #17609] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T16:56:51.372936 #17701] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T16:56:51.372996 #17701] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T16:56:51.373050 #17701] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T16:56:51.373927 #17701] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T16:56:51.373969 #17701] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T16:56:51.374013 #17701] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:56:58.331676 #17701] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:56:58.331804 #17701] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T16:56:58.331863 #17701] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T16:56:58.335780 #17701] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T16:56:58.336069 #17701] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T16:56:58.337323 #17701] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:56:58.337437 #17701] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T16:56:58.344297 #17701] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T16:56:58.347410 #17701] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T16:57:05.075935 #17701] DEBUG -- : <MyGit> <create> : Already up-to-date.
+
+D, [2019-08-05T16:57:05.079328 #17701] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T16:57:05.082650 #17701] DEBUG -- : <MyGit> <create> : Switched to branch 'trial'
+
+D, [2019-08-05T16:57:05.082997 #17701] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T16:57:05.083114 #17701] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T16:57:05.083233 #17701] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T16:57:05.083288 #17701] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T17:04:41.153884 #17934] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T17:04:41.153956 #17934] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T17:04:41.153988 #17934] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:04:41.154869 #17934] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:04:41.154918 #17934] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:04:41.154952 #17934] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T17:04:48.667757 #17934] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T17:04:48.667875 #17934] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T17:04:48.667955 #17934] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T17:04:48.670709 #17934] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T17:04:48.670789 #17934] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T17:04:48.671719 #17934] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:04:48.671795 #17934] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:04:48.673854 #17934] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T17:04:48.676922 #17934] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T17:04:55.280479 #17934] DEBUG -- : <MyGit> <create> : Already up-to-date.
+
+D, [2019-08-05T17:04:55.283689 #17934] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T17:04:55.287283 #17934] DEBUG -- : <MyGit> <create> : Switched to branch 'trial'
+
+D, [2019-08-05T17:04:55.287556 #17934] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:04:55.287740 #17934] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T17:04:55.287786 #17934] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T17:04:55.287847 #17934] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:04:55.288044 #17934] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T17:04:55.288123 #17934] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T17:08:43.566309 #18113] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T17:08:43.566622 #18113] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T17:08:43.566673 #18113] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:08:43.567536 #18113] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:08:43.567579 #18113] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:08:43.567633 #18113] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T17:08:43.568705 #18113] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T17:08:43.568774 #18113] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T17:08:43.568806 #18113] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T17:08:43.571319 #18113] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T17:08:43.571377 #18113] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T17:08:43.572204 #18113] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:08:43.572289 #18113] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:08:43.576318 #18113] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T17:08:43.579087 #18113] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T17:08:49.902810 #18113] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T17:08:49.905513 #18113] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T17:08:49.908882 #18113] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T17:08:49.909012 #18113] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:08:49.909288 #18113] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T17:08:49.909329 #18113] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T17:08:49.909398 #18113] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:08:49.909514 #18113] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T17:08:49.909570 #18113] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T17:10:51.395814 #18203] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/upgraded-octo-guide.git and branch: trial
+D, [2019-08-05T17:10:51.395887 #18203] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T17:10:51.395921 #18203] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:10:51.397100 #18203] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:10:51.397323 #18203] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:10:51.397385 #18203] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T17:10:51.398470 #18203] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T17:10:51.398547 #18203] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/upgraded-octo-guide.git
+D, [2019-08-05T17:10:51.398592 #18203] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T17:10:51.400878 #18203] DEBUG -- : <MyGit> <lastmod> : upgraded-octo-guide
+D, [2019-08-05T17:10:51.400940 #18203] DEBUG -- : <MyGit> <mygit_create> : last modified directory : upgraded-octo-guide
+D, [2019-08-05T17:10:51.401768 #18203] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:10:51.401859 #18203] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:10:51.406709 #18203] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T17:10:51.409675 #18203] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/upgraded-octo-guide/.git/
+
+D, [2019-08-05T17:10:58.075362 #18203] DEBUG -- : <MyGit> <create> : There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trial
+
+
+D, [2019-08-05T17:10:58.077989 #18203] DEBUG -- : <MyGit> <create> : fatal: A branch named 'trial' already exists.
+
+D, [2019-08-05T17:10:58.081016 #18203] DEBUG -- : <MyGit> <create> : Already on 'trial'
+M	.upgraded-octo-guide/Direx.txt
+
+D, [2019-08-05T17:10:58.081195 #18203] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:10:58.081437 #18203] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T17:10:58.081482 #18203] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/upgraded-octo-guide to the files
+D, [2019-08-05T17:10:58.081523 #18203] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:10:58.081669 #18203] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/upgraded-octo-guide to repo.txt
+D, [2019-08-05T17:10:58.081730 #18203] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T17:15:46.657001 #18444] DEBUG -- : <MyGit> <mygit_create> : mygit_create called with repo: https://github.com/GirishPMallya/stunning-computing-machine.git and branch: trial
+D, [2019-08-05T17:15:46.657069 #18444] DEBUG -- : <MyGit> <mygit_create> : Checking for git exists :
+D, [2019-08-05T17:15:46.657226 #18444] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:15:46.658072 #18444] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:15:46.658128 #18444] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:15:46.658159 #18444] DEBUG -- : <MyGit> <mygit_create> : Starting to clone the repo https://github.com/GirishPMallya/stunning-computing-machine.git
+D, [2019-08-05T17:15:53.919103 #18444] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T17:15:53.919270 #18444] DEBUG -- : <MyGit> <mygit_create> : Successfully cloned https://github.com/GirishPMallya/stunning-computing-machine.git
+D, [2019-08-05T17:15:53.919323 #18444] DEBUG -- : <MyGit> <getlastmodified> : getting the last modified file
+D, [2019-08-05T17:15:53.921571 #18444] DEBUG -- : <MyGit> <lastmod> : stunning-computing-machine
+D, [2019-08-05T17:15:53.921648 #18444] DEBUG -- : <MyGit> <mygit_create> : last modified directory : stunning-computing-machine
+D, [2019-08-05T17:15:53.922388 #18444] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:15:53.922469 #18444] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:15:53.924751 #18444] DEBUG -- : <MyGit> <mygit_create> : Created the Hidden Directory to store data
+D, [2019-08-05T17:15:53.928092 #18444] DEBUG -- : <MyGit> <create> : Reinitialized existing Git repository in /home/girish/Mygit - Final/stunning-computing-machine/.git/
+
+D, [2019-08-05T17:15:59.987266 #18444] DEBUG -- : <MyGit> <create> : Already up-to-date.
+
+D, [2019-08-05T17:15:59.991548 #18444] DEBUG -- : <MyGit> <create> : 
+D, [2019-08-05T17:15:59.996397 #18444] DEBUG -- : <MyGit> <create> : Switched to branch 'trial'
+
+D, [2019-08-05T17:15:59.996794 #18444] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:15:59.997027 #18444] DEBUG -- : <MyGit> <writetofile> : Successfully wrote trial to Direx.txt
+D, [2019-08-05T17:15:59.997083 #18444] DEBUG -- : <MyGit> <mygit_create> : Writing GirishPMallya/stunning-computing-machine to the files
+D, [2019-08-05T17:15:59.997265 #18444] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:15:59.997390 #18444] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya/stunning-computing-machine to repo.txt
+D, [2019-08-05T17:15:59.997449 #18444] DEBUG -- : <MyGit> <mygit_create> : Successfully executed the create command!
+D, [2019-08-05T17:22:37.565594 #18612] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:22:37.565696 #18612] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:22:37.565855 #18612] DEBUG -- : <MyGit> <writetofile> : Successfully wrote master to Base.txt
+D, [2019-08-05T17:22:37.565897 #18612] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:22:37.566046 #18612] DEBUG -- : <MyGit> <mygit_prepare> : Calling rebase
+D, [2019-08-05T17:22:37.607607 #18612] DEBUG -- : <MyGit> <prepare> : Rebase performed - Current branch trial is up to date.
+
+D, [2019-08-05T17:22:37.607676 #18612] DEBUG -- : <MyGit> <mygit_prepare> : Rebase ended
+D, [2019-08-05T17:22:37.607705 #18612] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:22:37.607766 #18612] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:22:37.607819 #18612] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:23:54.996682 #18704] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:23:54.996780 #18704] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:23:54.996972 #18704] DEBUG -- : <MyGit> <writetofile> : Successfully wrote master to Base.txt
+D, [2019-08-05T17:23:54.997027 #18704] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:23:54.997337 #18704] DEBUG -- : <MyGit> <mygit_prepare> : Calling rebase
+D, [2019-08-05T17:23:55.034887 #18704] DEBUG -- : <MyGit> <prepare> : Rebase performed - Current branch trial is up to date.
+
+D, [2019-08-05T17:23:55.035009 #18704] DEBUG -- : <MyGit> <mygit_prepare> : Rebase ended
+D, [2019-08-05T17:23:55.035095 #18704] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:23:55.035233 #18704] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:23:55.035371 #18704] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:24:16.117278 #18704] DEBUG -- : <MyGit> <mygit_prepare> : git pushed trial
+D, [2019-08-05T17:26:01.490994 #18807] DEBUG -- : Request Called
+D, [2019-08-05T17:26:01.491078 #18807] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:26:01.492055 #18807] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:26:01.492114 #18807] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:26:01.492150 #18807] DEBUG -- : <MYGIT> <mygit_request>module : Check if git exists? : true
+D, [2019-08-05T17:26:01.492295 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492342 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492378 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492426 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492458 #18807] DEBUG -- : Read data master from Base.txt
+D, [2019-08-05T17:26:01.492480 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492517 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492546 #18807] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:26:01.492567 #18807] DEBUG -- : <MyGit> <mygit_request> : Initializing the octokit client
+D, [2019-08-05T17:26:01.492585 #18807] DEBUG -- : <MyGit> <octoKitInit>  : Initializing Octokit API for git
+D, [2019-08-05T17:26:01.492603 #18807] DEBUG -- : <MyGit> <ReturnGitCredentials> : Checking if credentials are stored
+D, [2019-08-05T17:26:01.492620 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492648 #18807] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:01.492685 #18807] DEBUG -- : <MyGit> <readhidden> : gitconfig.txt doesn't exist
+D, [2019-08-05T17:26:13.694279 #18823] DEBUG -- : <MyGit> : Checking if Config Exists
+D, [2019-08-05T17:26:13.694353 #18823] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:13.694427 #18823] DEBUG -- : <MyGit> : <ConfigExist?> : Calling the ConfigGit function to configure the user's git
+D, [2019-08-05T17:26:13.694519 #18823] DEBUG -- : <MyGit> <ConfigGit> : Asking for the user`s git credentials through console
+D, [2019-08-05T17:26:20.694483 #18823] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:20.694835 #18823] DEBUG -- : <MyGit> <ConfigGit> : Writing to gitconfig file
+D, [2019-08-05T17:26:20.695006 #18823] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:20.695327 #18823] DEBUG -- : <MyGit> <writetofile> : Successfully wrote GirishPMallya
+testapipwtesttest to gitconfig.txt
+D, [2019-08-05T17:26:20.695439 #18823] DEBUG -- : <MyGit> <ConfigGit> : Git credentials have been configured
+D, [2019-08-05T17:26:23.059749 #18845] DEBUG -- : Request Called
+D, [2019-08-05T17:26:23.059817 #18845] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:26:23.060756 #18845] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:26:23.060810 #18845] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:26:23.060868 #18845] DEBUG -- : <MYGIT> <mygit_request>module : Check if git exists? : true
+D, [2019-08-05T17:26:23.060990 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061031 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061071 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061242 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061278 #18845] DEBUG -- : Read data master from Base.txt
+D, [2019-08-05T17:26:23.061300 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061360 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061391 #18845] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:26:23.061412 #18845] DEBUG -- : <MyGit> <mygit_request> : Initializing the octokit client
+D, [2019-08-05T17:26:23.061430 #18845] DEBUG -- : <MyGit> <octoKitInit>  : Initializing Octokit API for git
+D, [2019-08-05T17:26:23.061447 #18845] DEBUG -- : <MyGit> <ReturnGitCredentials> : Checking if credentials are stored
+D, [2019-08-05T17:26:23.061465 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061494 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061534 #18845] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:26:23.061564 #18845] DEBUG -- : Read data GirishPMallya
+testapipwtesttest from gitconfig.txt
+D, [2019-08-05T17:26:23.061638 #18845] DEBUG -- : <MyGit> <octokitInit> : Successfully logged into Octokit
+D, [2019-08-05T17:26:23.061659 #18845] DEBUG -- : <MyGit> <mygit_request> : Successfully initialized the octokit client
+D, [2019-08-05T17:26:23.061678 #18845] DEBUG -- : <MyGit> <mygit_request> : Now creating a pull_request for GirishPMallya/stunning-computing-machine from trial to master
+D, [2019-08-05T17:26:29.803487 #18845] DEBUG -- : <MyGit> : ERROR! -> POST https://api.github.com/repos/GirishPMallya/stunning-computing-machine/pulls: 422 - Validation Failed
+Error summary:
+  resource: PullRequest
+  code: custom
+  message: No commits between master and trial // See: https://developer.github.com/v3/pulls/#create-a-pull-request
+D, [2019-08-05T17:26:29.803709 #18845] DEBUG -- : <MyGit> <mygit_request> : Successfully requested the comparison
+D, [2019-08-05T17:26:29.803835 #18845] DEBUG -- : <MyGit> <mygit_request> : creating a JSON object for the return value of comparison
+D, [2019-08-05T17:27:36.346412 #18925] DEBUG -- : Request Called
+D, [2019-08-05T17:27:36.346478 #18925] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:27:36.347313 #18925] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:27:36.347357 #18925] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:27:36.347380 #18925] DEBUG -- : <MYGIT> <mygit_request>module : Check if git exists? : true
+D, [2019-08-05T17:27:36.347422 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347494 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347593 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347639 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347671 #18925] DEBUG -- : Read data master from Base.txt
+D, [2019-08-05T17:27:36.347693 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347729 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347759 #18925] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:27:36.347780 #18925] DEBUG -- : <MyGit> <mygit_request> : Initializing the octokit client
+D, [2019-08-05T17:27:36.347798 #18925] DEBUG -- : <MyGit> <octoKitInit>  : Initializing Octokit API for git
+D, [2019-08-05T17:27:36.347815 #18925] DEBUG -- : <MyGit> <ReturnGitCredentials> : Checking if credentials are stored
+D, [2019-08-05T17:27:36.347833 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347861 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347898 #18925] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:27:36.347928 #18925] DEBUG -- : Read data GirishPMallya
+testapipwtesttest from gitconfig.txt
+D, [2019-08-05T17:27:36.348003 #18925] DEBUG -- : <MyGit> <octokitInit> : Successfully logged into Octokit
+D, [2019-08-05T17:27:36.348024 #18925] DEBUG -- : <MyGit> <mygit_request> : Successfully initialized the octokit client
+D, [2019-08-05T17:27:36.348051 #18925] DEBUG -- : <MyGit> <mygit_request> : Now creating a pull_request for GirishPMallya/stunning-computing-machine from trial to master
+D, [2019-08-05T17:27:44.274037 #18925] DEBUG -- : <MyGit> <mygit_request> : Successfully created the pull requested with pull request number 1
+D, [2019-08-05T17:27:46.176383 #18925] DEBUG -- : <MyGit> : ERROR! -> POST https://api.github.com/repos/GirishPMallya/stunning-computing-machine/pulls/1/requested_reviewers: 422 - Reviews may only be requested from collaborators. One or more of the users or teams you specified is not a collaborator of the GirishPMallya/stunning-computing-machine repository. // See: https://developer.github.com/v3/pulls/review_requests/#create-a-review-request
+D, [2019-08-05T17:27:46.176589 #18925] DEBUG -- : <MyGit> <mygit_request> : Successfully requested the comparison
+D, [2019-08-05T17:27:46.176733 #18925] DEBUG -- : <MyGit> <mygit_request> : creating a JSON object for the return value of comparison
+D, [2019-08-05T17:29:35.891638 #18994] DEBUG -- : Request Called
+D, [2019-08-05T17:29:35.891707 #18994] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:29:35.892607 #18994] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:29:35.892679 #18994] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:29:35.892703 #18994] DEBUG -- : <MYGIT> <mygit_request>module : Check if git exists? : true
+D, [2019-08-05T17:29:35.892843 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.892961 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.893010 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.893055 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.893087 #18994] DEBUG -- : Read data master from Base.txt
+D, [2019-08-05T17:29:35.893113 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.893284 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.893327 #18994] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:29:35.893348 #18994] DEBUG -- : <MyGit> <mygit_request> : Initializing the octokit client
+D, [2019-08-05T17:29:35.893366 #18994] DEBUG -- : <MyGit> <octoKitInit>  : Initializing Octokit API for git
+D, [2019-08-05T17:29:35.895673 #18994] DEBUG -- : <MyGit> <ReturnGitCredentials> : Checking if credentials are stored
+D, [2019-08-05T17:29:35.895716 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.895958 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.896007 #18994] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:29:35.896039 #18994] DEBUG -- : Read data GirishPMallya
+testapipwtesttest from gitconfig.txt
+D, [2019-08-05T17:29:35.896110 #18994] DEBUG -- : <MyGit> <octokitInit> : Successfully logged into Octokit
+D, [2019-08-05T17:29:35.896133 #18994] DEBUG -- : <MyGit> <mygit_request> : Successfully initialized the octokit client
+D, [2019-08-05T17:29:35.896157 #18994] DEBUG -- : <MyGit> <mygit_request> : Now creating a pull_request for GirishPMallya/stunning-computing-machine from trial to master
+D, [2019-08-05T17:29:42.725248 #18994] DEBUG -- : <MyGit> : ERROR! -> POST https://api.github.com/repos/GirishPMallya/stunning-computing-machine/pulls: 422 - Validation Failed
+Error summary:
+  resource: PullRequest
+  code: custom
+  message: A pull request already exists for GirishPMallya:trial. // See: https://developer.github.com/v3/pulls/#create-a-pull-request
+D, [2019-08-05T17:29:42.725526 #18994] DEBUG -- : <MyGit> <mygit_request> : Successfully requested the comparison
+D, [2019-08-05T17:29:42.725661 #18994] DEBUG -- : <MyGit> <mygit_request> : creating a JSON object for the return value of comparison
+D, [2019-08-05T17:30:07.236041 #19020] DEBUG -- : Request Called
+D, [2019-08-05T17:30:07.236109 #19020] DEBUG -- : <MyGit> : <GitExist?> : Checking if the user has git installed
+D, [2019-08-05T17:30:07.236960 #19020] DEBUG -- : <MyGit> <git_exist?> : /usr/bin/git
+
+D, [2019-08-05T17:30:07.237035 #19020] DEBUG -- : <MyGit> : <GitExist?> : Git exists
+D, [2019-08-05T17:30:07.237259 #19020] DEBUG -- : <MYGIT> <mygit_request>module : Check if git exists? : true
+D, [2019-08-05T17:30:07.237328 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.237378 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.237413 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.237454 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.237486 #19020] DEBUG -- : Read data master from Base.txt
+D, [2019-08-05T17:30:07.237507 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.237543 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.237572 #19020] DEBUG -- : Read data trial from Direx.txt
+D, [2019-08-05T17:30:07.237594 #19020] DEBUG -- : <MyGit> <mygit_request> : Initializing the octokit client
+D, [2019-08-05T17:30:07.237611 #19020] DEBUG -- : <MyGit> <octoKitInit>  : Initializing Octokit API for git
+D, [2019-08-05T17:30:07.237628 #19020] DEBUG -- : <MyGit> <ReturnGitCredentials> : Checking if credentials are stored
+D, [2019-08-05T17:30:07.239927 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.240204 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.240250 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:07.240282 #19020] DEBUG -- : Read data GirishPMallya
+testapipwtesttest from gitconfig.txt
+D, [2019-08-05T17:30:07.240350 #19020] DEBUG -- : <MyGit> <octokitInit> : Successfully logged into Octokit
+D, [2019-08-05T17:30:07.240371 #19020] DEBUG -- : <MyGit> <mygit_request> : Successfully initialized the octokit client
+D, [2019-08-05T17:30:07.240389 #19020] DEBUG -- : <MyGit> <mygit_request> : Now creating a pull_request for GirishPMallya/stunning-computing-machine from trial to master
+D, [2019-08-05T17:30:14.696883 #19020] DEBUG -- : <MyGit> <mygit_request> : Successfully created the pull requested with pull request number 2
+D, [2019-08-05T17:30:16.781278 #19020] DEBUG -- : <MyGit> <mygit_request> : requesting a review
+D, [2019-08-05T17:30:16.781417 #19020] DEBUG -- : <MyGit> <mygit_request> : requested review by girishmallya123
+D, [2019-08-05T17:30:16.781624 #19020] DEBUG -- : <MyGit> <mygit_request> : Requesting a comparison between master and trial
+D, [2019-08-05T17:30:18.201788 #19020] DEBUG -- : <MyGit> <mygit_request> : Successfully requested the comparison
+D, [2019-08-05T17:30:18.201975 #19020] DEBUG -- : <MyGit> <mygit_request> : creating a JSON object for the return value of comparison
+D, [2019-08-05T17:30:18.202922 #19020] DEBUG -- : <MyGit> <mygit_request> : Saved the json object on disk
+D, [2019-08-05T17:30:18.203120 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:18.203535 #19020] DEBUG -- : <MyGit> <writetofile> : Successfully wrote 2 to pullreq.txt
+D, [2019-08-05T17:30:18.203683 #19020] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:30:18.203970 #19020] DEBUG -- : <MyGit> <writetofile> : Successfully wrote 304269868 to reviewreq.txt
+D, [2019-08-05T17:30:18.204079 #19020] DEBUG -- : <MyGit> <mygit_status> Writing Pull number and review ID to files successfully
+D, [2019-08-05T17:31:09.091154 #19070] DEBUG -- : <MyGit> <mygit_status> : Entered the mygit_status module
+D, [2019-08-05T17:31:09.091217 #19070] DEBUG -- : <MyGit> <mygit_status> : Initializing the octokit API
+D, [2019-08-05T17:31:09.091243 #19070] DEBUG -- : <MyGit> <octoKitInit>  : Initializing Octokit API for git
+D, [2019-08-05T17:31:09.091270 #19070] DEBUG -- : <MyGit> <ReturnGitCredentials> : Checking if credentials are stored
+D, [2019-08-05T17:31:09.091302 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091353 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091506 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091630 #19070] DEBUG -- : Read data GirishPMallya
+testapipwtesttest from gitconfig.txt
+D, [2019-08-05T17:31:09.091708 #19070] DEBUG -- : <MyGit> <octokitInit> : Successfully logged into Octokit
+D, [2019-08-05T17:31:09.091728 #19070] DEBUG -- : <MyGit> <mygit_status> : Successfully initialized the octokit API
+D, [2019-08-05T17:31:09.091748 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091776 #19070] DEBUG -- : <MyGit> <mygit_status> : Requested the Repo Name
+D, [2019-08-05T17:31:09.091805 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091834 #19070] DEBUG -- : <MyGit> <mygit_status> : Reading hidden files to get pull request number, review request id and base branch
+D, [2019-08-05T17:31:09.091856 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091896 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091926 #19070] DEBUG -- : Read data 2 from pullreq.txt
+D, [2019-08-05T17:31:09.091947 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.091988 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.092017 #19070] DEBUG -- : Read data 304269868 from reviewreq.txt
+D, [2019-08-05T17:31:09.092038 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.092073 #19070] DEBUG -- : <MyGit> : <getreponame> : Asking for reponame
+D, [2019-08-05T17:31:09.092102 #19070] DEBUG -- : Read data master from Base.txt
+D, [2019-08-05T17:31:15.937907 #19070] DEBUG -- : <MyGit> <mygit_status> : Requesting the status of the review
+D, [2019-08-05T17:31:15.938058 #19070] DEBUG -- : <MyGit> <mygit_status> : Review not done yet

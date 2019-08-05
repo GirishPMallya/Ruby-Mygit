@@ -18,6 +18,7 @@ class Mygit
   Hidden_log_path_file = '.logpath.txt'
   Git_config = 'gitconfig.txt'
   Comparison_json_file = 'comparison_result.json' 
+  Base_directory = `pwd`.chomp
 
   def self.parse(args)
   
@@ -211,6 +212,24 @@ class Mygit
     end
   end
 
+
+  def self.go_to_base_directory
+    Dir.chdir(Base_directory)
+
+  end
+
+
+  def self.go_to_repo
+    repo = get_repo_name
+    repo_directory = Base_directory + "/" + repo
+    Dir.chdir(repo_directory)
+  end
+
+
+  def self.go_to_hidden_directory
+    
+
+  end
 
   def self.get_repo_name
     @@mygit_log.debug("<MyGit> : <getreponame> : Asking for reponame")

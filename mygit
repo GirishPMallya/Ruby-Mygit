@@ -39,7 +39,6 @@ class Mygit
 
     parser.on('-c', '--create [github repository link] [branch]',Array, 'Clone a repository and branch') do |create|
       options[:repo_and_branch] += create  
-      repo=self.get_repo_name
       self.create(options[:repo_and_branch])
     end
 
@@ -215,7 +214,7 @@ class Mygit
 
   def self.go_to_base_directory
     Dir.chdir(Base_directory)
-
+    
   end
 
 
@@ -227,11 +226,13 @@ class Mygit
 
 
   def self.go_to_hidden_directory
-    
-
+    repo = get_repo_name
+    hidden_path = Base_directory + "/" + repo + "/." + repo
+    Dir.chdir(hidden_path)
   end
 
   def self.get_repo_name
+    self.go_to_base_directory
     @@mygit_log.debug("<MyGit> : <getreponame> : Asking for reponame")
     repo_name = File.open(Repo_file, 'r'){ |repofile| repofile.read}
     repo_name = repo_name.split('/')[1]
@@ -239,7 +240,16 @@ class Mygit
   end
 
 
+  def self.create_hidden_directory
+    repo = get_repo_name
+    self.go_to_repo
+    Dir.mkdir(repo)
+    `mv #{repo} .#{repo}`
+
+  end
+
   def self.create(repo_and_branch)
+    self.go_to_base_directory
     @@mygit_log.debug("<MyGit> <mygit_create> : mygit_create called with repo: #{repo_and_branch[1]} and branch: #{repo_and_branch[2]}")
     @@mygit_log.debug("<MyGit> <mygit_create> : Checking for git exists :")
     if !self.git_exist?()
@@ -270,14 +280,13 @@ class Mygit
     #cd into it
        
     pw = `pwd`
-    pw=pw.chomp                                    
-    Dir.chdir "#{lastmod}"
+    pw=pw.chomp
     username = repo.split('/')[3]
     repo=(repo.split('/')[4]).split('.')[0]
-    puts repo
-    repo_link  = "#{username}"+"/"+"#{lastmod}"
-    Dir.mkdir(lastmod)
-    `mv #{lastmod} .#{lastmod}`
+    repo_link = "#{username}" +"/" + "#{lastmod}"
+    File.open('repo.txt','w'){|file| file.write(repo_link)}
+    Dir.chdir "#{lastmod}"
+    self.create_hidden_directory
     @@mygit_log.debug("<MyGit> <mygit_create> : Created the Hidden Directory to store data")
     init_output = `git init 2>&1`
     @@mygit_log.debug("<MyGit> <create> : #{init_output}")
@@ -292,15 +301,14 @@ class Mygit
 
       checking_out_output= `git checkout #{branch} 2>&1`
       @@mygit_log.debug("<MyGit> <create> : #{checking_out_output}")
-
+    end
+    
       self.write_to_file(Working_branch,branch,repo)
       repodirex= "#{pw}"+ Repo_file
       @@mygit_log.debug("<MyGit> <mygit_create> : Writing #{repo_link} to the files")
-      self.write_to_file(repodirex,repo_link,repo)
       self.write_to_file(Repo_file,repo_link,repo)                                                           
       puts "<MyGit> : Successfully created branch :  #{branch}"
       @@mygit_log.debug("<MyGit> <mygit_create> : Successfully executed the create command!")
-    end
       rescue StandardError => error
       puts "<MyGit> : Error! : #{error}"
       @@mygit_log.debug("<MyGit> <mygit_create> : ERROR! : #{error}")
@@ -309,10 +317,9 @@ class Mygit
 
   end
   def self.write_to_file(fname,content,repo)
-    Dir.chdir ".#{repo}" do
+    self.go_to_hidden_directory
     File.open(fname, 'w') {|file| file.write(content)}
     @@mygit_log.debug("<MyGit> <writetofile> : Successfully wrote #{content} to #{fname}")
-      end
   end
 
   def self.get_last_modified()
@@ -324,12 +331,12 @@ class Mygit
   end
 
   def self.base_exist?(repo)
-    Dir.chdir "#{repo}/.#{repo}"
+    self.go_to_hidden_directory
     if File.file?(Base_branch)
       @@mygit_log.debug("<MyGit> <Base?> : Base File exists")
       base_branch = File.open(Base_branch) { |basefile| basefile.read }
     end
-      Dir.chdir "../.."
+      self.go_to_base_directory
       if base_branch.nil?
         @@mygit_log.debug("<MyGit> <Base?> : Base file is empty")
         return false
@@ -341,24 +348,23 @@ class Mygit
 
 
   def self.read_hidden(repo,file)
-    Dir.chdir ".#{repo}"
+    self.go_to_hidden_directory
     if !File.exist?(file)
       @@mygit_log.debug("<MyGit> <readhidden> : #{file} doesn't exist")
       puts " <MyGit> : Error : File #{file} doesn`t exist"
       exit
     end
       data = File.open(file, 'r'){|file| file.read}
-      Dir.chdir ".."
+      self.go_to_repo
       @@mygit_log.debug("Read data #{data} from #{file}")
       return data
   end
 
 
   def self.prepare(base_array)
+    self.go_to_base_directory
     base = base_array[1]
     added_flag = base_array[2]
-    puts base
-    puts added_flag      
     repo = self.get_repo_name()
     if base.nil? and !(self.base_exist?(repo))
       @@mygit_log.debug("<MyGit> <mygit_prepare> : Base Branch is not specified")
@@ -371,10 +377,12 @@ class Mygit
       base = self.read_hidden(repo, Base_branch)
     end
     self.write_to_file(Base_branch,base,repo)    
-
+    self.go_to_repo
     begin
+    puts "<MyGit> Calling Rebase"
     @@mygit_log.debug("<MyGit> <mygit_prepare> : Calling rebase")
     rebase_op =`git rebase #{base}  2>&1`
+    puts "<MyGit>  - >   #{rebase_op}"
     @@mygit_log.debug("<MyGit> <prepare> : Rebase performed - #{rebase_op}")
     if rebase_op.include?('merge conflict')
       puts "Merge conflict"
@@ -410,15 +418,16 @@ class Mygit
 
   end
   def self.request(reviewers)
+    self.go_to_base_directory
     @@mygit_log.debug("Request Called")
     @@mygit_log.debug("<MYGIT> <mygit_request>module : Check if git exists? : #{self.git_exist?()}")
     reviewers.shift
     repo_directory = File.open(Repo_file) {|file| file.read}
     repo = self.get_repo_name()    
-    Dir.chdir(repo)    
+    self.go_to_repo
     base_branch = self.read_hidden(repo,Base_branch)       
     working_branch = self.read_hidden(repo,Working_branch) 
-    Dir.chdir('..')
+    self.go_to_base_directory
 	  @@mygit_log.debug("<MyGit> <mygit_request> : Initializing the octokit client")
     client = self.octokit_init()
     @@mygit_log.debug("<MyGit> <mygit_request> : Successfully initialized the octokit client")
@@ -473,7 +482,7 @@ class Mygit
     repo = self.get_repo_name()
 	  @@mygit_log.debug("<MyGit> <mygit_status> : Requested the Repo Name")
     repo_directory = File.open("repo.txt") { |file| file.read}
-    Dir.chdir(repo)
+    self.go_to_repo
 	  @@mygit_log.debug("<MyGit> <mygit_status> : Reading hidden files to get pull request number, review request id and base branch")
     pullreq=self.read_hidden(repo,Pull_req)
     reviewreq = self.read_hidden(repo,Review_req)
